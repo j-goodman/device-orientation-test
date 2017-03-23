@@ -1,4 +1,6 @@
-var square = document.getElementsByTagName('square')[0];
+window.onload = function () {
+  var square = document.getElementsByTagName('square')[0];
+};
 
 window.DeviceOrientationEvent = function (e) {
   console.log(e);

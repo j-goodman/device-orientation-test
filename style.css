@@ -6,6 +6,8 @@ body {
 
 square {
   background: #0ad;
+  color: #000;
+  font-size: 18px;
   display: block;
   height: 100px;
   width: 200px;
