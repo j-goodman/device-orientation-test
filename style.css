@@ -5,11 +5,12 @@ body {
 }
 
 square {
-  background: #a0d;
+  background: #0ad;
   color: #000;
   display: block;
   font-size: 18px;
   height: 300px;
+  line-height: 300px;
   text-align: center;
   width: 500px;
 }

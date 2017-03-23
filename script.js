@@ -2,7 +2,8 @@ window.onload = function () {
   var square = document.getElementsByTagName('square')[0];
 };
 
-window.deviceorientation = function (e) {
-  console.log(e);
+window.addEventListener("deviceorientation", handleOrientation, true);
+
+var handleOrientation = function () {
   square.innerText = "Haldo.";
 };
