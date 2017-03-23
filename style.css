@@ -1,0 +1,12 @@
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+square {
+  background: #0ad;
+  display: block;
+  height: 100px;
+  width: 200px;
+}
