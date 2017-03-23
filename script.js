@@ -10,7 +10,7 @@ function handleOrientation(event) {
   var beta     = event.beta;
   var gamma    = event.gamma;
 
-  square.innerText = event.absolute + "-" + event.alpha + "-" + event.beta + "-" + event.gamma;
+  square.innerText = Math.round(event.absolute) + "-" + Math.round(event.alpha) + "-" + Math.round(event.beta) + "-" + Math.round(event.gamma);
 }
 
 onkeydown = handleOrientation;
