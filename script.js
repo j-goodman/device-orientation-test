@@ -1,9 +1,16 @@
 window.onload = function () {
-  var square = document.getElementsByTagName('square')[0];
+  square = document.getElementsByTagName('square')[0];
 };
 
 window.addEventListener("deviceorientation", handleOrientation, true);
 
-var handleOrientation = function () {
+function handleOrientation(event) {
+  var absolute = event.absolute;
+  var alpha    = event.alpha;
+  var beta     = event.beta;
+  var gamma    = event.gamma;
+
   square.innerText = "Haldo.";
-};
+}
+
+onkeydown = handleOrientation;
